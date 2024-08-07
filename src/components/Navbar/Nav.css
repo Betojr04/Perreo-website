@@ -4,7 +4,11 @@
     align-items: center;
     padding: 20px;
     background-color: transparent;
+<<<<<<< HEAD
     color: black;
+=======
+    color: white;
+>>>>>>> adjusted the hero section styling
     position: absolute;
     width: 100%;
     z-index: 1;

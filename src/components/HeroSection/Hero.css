@@ -1,15 +1,29 @@
 .hero-container {
+<<<<<<< HEAD
     height: 50vh;
+=======
+    background-image: url("https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGF0aW4lMjBkYW5jaW5nfGVufDB8fDB8fHww");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+>>>>>>> adjusted the hero section styling
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 2em;
+<<<<<<< HEAD
     background-color: lightgray;
+=======
+>>>>>>> adjusted the hero section styling
 }
 
 .hero-container h1 {
     margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> adjusted the hero section styling
 }
 
 button {
