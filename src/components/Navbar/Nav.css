@@ -4,11 +4,8 @@
     align-items: center;
     padding: 20px;
     background-color: transparent;
-<<<<<<< HEAD
     color: black;
-=======
     color: white;
->>>>>>> adjusted the hero section styling
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -58,9 +55,11 @@
         display: flex;
         justify-content: flex-end;
         padding: 0;
+        color: white;
     }
 
     .nav-links div {
+        color: white;
         padding: 0 10px;
     }
 }
