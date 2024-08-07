@@ -5,13 +5,6 @@ export const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-content">
-<<<<<<< HEAD
-        <div>Contact: info@yourcompany.com</div>
-        <div className="footer-links">
-          <div>Facebook</div>
-          <div>Instagram</div>
-          <div>Twitter</div>
-=======
         <div className="footer-contact">
           <div>
             Contact:{" "}
@@ -40,7 +33,6 @@ export const Footer = () => {
           >
             <i className="fab fa-twitter"></i> Twitter
           </a>
->>>>>>> temp-branch
         </div>
       </div>
       <div className="footer-copyright">

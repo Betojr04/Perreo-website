@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Hero } from "../components/HeroSection/Hero";
-import { Hero } from "../components/HeroSection/Hero";
 import { AboutUsSection } from "../components/About/AboutUsSection";
 import { ScheduleSection } from "../components/Schedule/ScheduleSection";
 import { ContactSection } from "../components/Contact/ContactSection";
