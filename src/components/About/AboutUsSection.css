@@ -1,0 +1,61 @@
+.about-us-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    /* Ensures content doesn't stretch too wide */
+    margin: 0 auto;
+    /* Centers the container */
+}
+
+.about-us-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-us-content {
+    max-width: 600px;
+    margin-bottom: 20px;
+    /* Adds spacing at the bottom in case of small screens */
+}
+
+.about-us-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-us-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    .about-us-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-us-image {
+        flex: 1;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .about-us-content {
+        flex: 1;
+        margin-left: 20px;
+        /* Adjusts spacing for content */
+        text-align: left;
+        /* Align text to the left for readability */
+    }
+}
